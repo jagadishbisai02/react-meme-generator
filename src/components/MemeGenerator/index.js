@@ -131,7 +131,7 @@ class MemeGenerator extends Component {
           onChange={this.onChangeFontSizeOptionId}
         >
           {fontSizesOptionsList.map(eachOption => (
-            <CustomOption key={eachOption.id} value={eachOption.optionId}>
+            <CustomOption key={eachOption.optionId} value={eachOption.optionId}>
               {eachOption.displayText}
             </CustomOption>
           ))}
